@@ -15,9 +15,10 @@
                  ]
   :deploy-repositories [["releases"
                            {
-                             :url  "https://repo.clojars.org"
+                             :url  "https://repo.clojars2.org"
                              :creds :gpg
-                            }]]                
+                             :sign-releases false
+                            }]]
   ; :main ^:skip-aot sparql.core
   :main ^:skip-aot jena-clj.triplestore
   :target-path "target/%s"
