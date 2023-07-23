@@ -13,6 +13,11 @@
                  [org.apache.jena/jena-tdb "3.2.0"]
                  [org.clojars.prozion/odysseus "0.1.9"]
                  ]
+  :deploy-repositories [["releases"
+                           {
+                             :url  "https://repo.clojars.org"
+                             :creds :gpg
+                            }]]                
   ; :main ^:skip-aot sparql.core
   :main ^:skip-aot jena-clj.triplestore
   :target-path "target/%s"
