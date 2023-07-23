@@ -1,4 +1,4 @@
-(defproject jena-clj "0.1.0"
+(defproject org.clojars.prozion/jena-clj "0.2.1"
   :description "An idiomatic Clojure wrapper to the Jena API"
   :url "https://github.com/prozion/jena-clj"
   :repositories {"mvnrepository" {:url "https://mvnrepository.com/"}
